@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "target": "esnext",
+      "module": "esnext",
+      "declaration": false,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "removeComments": true,
+      "noLib": false
+    },
+    "include": [
+      "**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }

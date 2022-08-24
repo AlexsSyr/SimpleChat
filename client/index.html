@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Простой чат</title>
+
+    <style>
+        .chatLog {
+            overflow: scroll;
+            width: 300px;
+            height: 150px;
+            padding: 5px;
+            border: solid 1px black;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <b>Ваше имя:</b>
+        <input type="text" id="userName">
+        <button id="sendNameButton">Отправить</button>
+    </p>
+
+    <p>
+        <b>Чат:</b>
+    <div class="chatLog" id="messageField">
+        <output id="messageBox"></output>
+    </div>
+    </p>
+
+    <p>Сообщение:
+        <Br>
+        <textarea name="comment" cols="40" rows="3" id="messageText"></textarea>
+    </p>
+
+    <button id="sendMessage">Отправить</button>
+
+</body>
+<script src="client.js"></script>
+
+</html>
